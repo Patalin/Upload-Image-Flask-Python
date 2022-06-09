@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  </head>
+  <body>
+    <h1>Upload and Display Images with Flask and Python</h1>
+
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" id="myFile" name="uploaded-file" >
+        <input type="submit" value="Upload Image">
+    </form>
+  <br>
+  <p style="color:red;">Choose file to upload and press "Upload Image" button</p>
+  <form action="/show_data" target="_blank">
+        <input type="submit" value="Show Image" />
+    </form>
+  </body>
+</html>
